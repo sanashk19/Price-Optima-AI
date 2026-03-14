@@ -23,6 +23,15 @@ D --> E[Backend Logic]
 E --> F[Frontend Dashboard]
 F --> G[User / Business Decision Maker]
 ```
+
+## Project Workflow
+
+1. Collect historical pricing and demand dataset
+2. Perform data preprocessing and cleaning
+3. Train machine learning model for demand prediction
+4. Generate optimal pricing recommendations
+5. Display insights through an interactive dashboard
+
 ## Tech Stack
 
 Python  
