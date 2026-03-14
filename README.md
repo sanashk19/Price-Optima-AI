@@ -24,6 +24,11 @@ E --> F[Frontend Dashboard]
 F --> G[User / Business Decision Maker]
 ```
 
+### Pricing Dashboard
+![Dashboard](dashboard.png)
+
+### Demand Prediction Graph
+![Prediction](analysis.png)
 ## Project Workflow
 
 1. Collect historical pricing and demand dataset
