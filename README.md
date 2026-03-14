@@ -12,15 +12,17 @@ The system combines a predictive model with a dashboard interface for visualizat
 - Data visualization dashboard
 - Interactive frontend interface
 
-## Project Structure
-Price-Optima-AI
-│
-├── frontend → React interface
-├── model → ML pricing model
-├── data → training dataset
-├── dashboard → visualization dashboard
+## System Architecture
 
-
+```mermaid
+flowchart TD
+A[Dataset: Historical Pricing & Demand Data] --> B[Data Preprocessing]
+B --> C[Machine Learning Model]
+C --> D[Price Prediction Engine]
+D --> E[Backend Logic]
+E --> F[Frontend Dashboard]
+F --> G[User / Business Decision Maker]
+```
 ## Tech Stack
 
 Python  
